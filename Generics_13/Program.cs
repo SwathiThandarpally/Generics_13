@@ -36,6 +36,17 @@ namespace Generics_13
             Console.WriteLine("Maximum Float Is:" + Refactor2<float>.findmax(1.50f, 0.75f, 5.0f));
             Console.WriteLine("Maximum String Is:" + Refactor2<string>.findmax("Appple", "Peach", "Banana"));
             Console.WriteLine("-----------------------------------");
+            //UC_4
+            Console.WriteLine("Maximum Integer Number is: ");
+            int intoutput = ExtendMaxUC_4.MaximumIntegerNumber(50, 12, 60, 200);
+            Console.WriteLine(intoutput);
+            Console.WriteLine("Maximum Float Number is:");
+            float output1 = ExtendMaxUC_4.MaximumFloatNumber(3.33f, 50.40f, 80.7f, 21.60f);
+            Console.WriteLine(output1);
+            Console.WriteLine("Maximum String value is : ");
+            string stringoutput = ExtendMaxUC_4.MaximumStringNumber("Apple", "Banana", "PineApple", "Peach");
+            Console.WriteLine(stringoutput);
+            Console.WriteLine("------------UC5--------------");
 
         }
     }
