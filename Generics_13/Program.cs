@@ -31,6 +31,11 @@ namespace Generics_13
             string strigoutput = Refactor1.MaximumStringNumber("Appple", "Peach", "Banana");
             Console.WriteLine(strigoutput);
             Console.WriteLine("-----------------------------------");
+            //Refactor_2
+            Console.WriteLine("Maximum Integer Is:" + Refactor2<int>.findmax(100, 75, 50));
+            Console.WriteLine("Maximum Float Is:" + Refactor2<float>.findmax(1.50f, 0.75f, 5.0f));
+            Console.WriteLine("Maximum String Is:" + Refactor2<string>.findmax("Appple", "Peach", "Banana"));
+            Console.WriteLine("-----------------------------------");
 
         }
     }
