@@ -22,6 +22,15 @@ namespace Generics_13
             GenericMaximum<string> genericString = new GenericMaximum<string>(stringArray);
             genericString.PrintMaxValue();
             Console.WriteLine("-----------------------------------");
+            //Refactor_1
+            Console.WriteLine("Find Maximum Number");
+            int output = Refactor1.MaximumIntegerNumber(100, 75, 50);
+            Console.WriteLine(output);
+            float floatoutput = (float)Refactor1.MaximumFloatNumber(1.50f, 0.75f, 5.0f);
+            Console.WriteLine(floatoutput);
+            string strigoutput = Refactor1.MaximumStringNumber("Appple", "Peach", "Banana");
+            Console.WriteLine(strigoutput);
+            Console.WriteLine("-----------------------------------");
 
         }
     }
