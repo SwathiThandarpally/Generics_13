@@ -17,6 +17,11 @@ namespace Generics_13
             GenericMaximum<float> genericFloat = new GenericMaximum<float>(floatArray);
             genericFloat.PrintMaxValue();
             Console.WriteLine("-----------------------------------");
+            //UC_3
+            string[] stringArray = { "Appple", "Peach", "Banana" };
+            GenericMaximum<string> genericString = new GenericMaximum<string>(stringArray);
+            genericString.PrintMaxValue();
+            Console.WriteLine("-----------------------------------");
 
         }
     }
