@@ -46,7 +46,18 @@ namespace Generics_13
             Console.WriteLine("Maximum String value is : ");
             string stringoutput = ExtendMaxUC_4.MaximumStringNumber("Apple", "Banana", "PineApple", "Peach");
             Console.WriteLine(stringoutput);
-            Console.WriteLine("------------UC5--------------");
+            Console.WriteLine("-----------------------------------");
+            //UC_5
+            int[] intArray1 = { 2, 344, 432, 555, 678 };
+            GenericMaximum<int> generic1 = new GenericMaximum<int>(intArray1);
+            generic1.PrintMaxValue();
+            float[] float1 = { 11.1f, 22.3f, 44.7f, 66.7f };
+            GenericMaximum<float> generic2 = new GenericMaximum<float>(float1);
+            generic2.PrintMaxValue();
+            string[] string1 = { "Apple", "Banana", "PineApple", "Peach" };
+            GenericMaximum<string> genericString1 = new GenericMaximum<string>(string1);
+            genericString1.PrintMaxValue();
+            Console.ReadKey();
 
         }
     }
